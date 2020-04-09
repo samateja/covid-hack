@@ -1,0 +1,54 @@
+.tphoto {
+    width: 90%;
+    height: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+    position: relative;
+    top: 15px;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -o-border-radius: 10px;
+    -ms-border-radius: 10px;
+    border: 1px solid #c0c0c0;
+    background-color: #fff;
+    box-shadow: 2px 2px 2px #c0c0c0;
+}
+
+.tname {
+    padding: 5% 0px 0px 0px;
+    font-size: 5vw;
+    font-family: 'Helvetica', sans-serif;
+    float: left;
+    text-align: center;
+}
+
+.tname .age {
+    font-weight: 200;
+}
+
+.tinfo {
+    font-family: 'Helvetica', sans-serif;
+}
+
+.tinfo .fa-users,
+.tinfo .fa-book {
+    color: #c0c0c0;
+    float: right;
+    position: relative;
+    font-size: 24px;
+    padding: 12px;
+}
+
+@media only screen and (min-width: 768px) {
+    #tname {
+        font-size: 1vw;
+    }
+    .tphoto {
+        height: 100%;
+    }
+}
+
+.image-prop {
+    /* padding: 15%;
+    margin-left: 6%; */
+}

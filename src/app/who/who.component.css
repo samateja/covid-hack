@@ -1,0 +1,12 @@
+.dialog {
+    position: relative;
+    margin: 10px auto;
+    background-color: black;
+}
+
+.close-button {
+    position: absolute;
+    top: -16px;
+    right: 0;
+    transform: translate(50%, -50%);
+}

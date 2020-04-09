@@ -1,0 +1,165 @@
+<div class="example-container" id="home" [class.example-is-mobile]="mobileQuery.matches">
+    <mat-toolbar color="primary" class="example-toolbar">
+        <button mat-icon-button (click)="toggle()"><mat-icon>menu</mat-icon></button>
+        <h1 class="example-app-name">Icovids</h1>
+    </mat-toolbar>
+
+    <mat-sidenav-container class="example-sidenav-container" [style.marginTop.px]="mobileQuery.matches ? 56 : 0">
+        <mat-sidenav #sidenav mode="side" style="width: 50%;" [mode]="mobileQuery.matches ? 'over' : 'side'" [fixedInViewport]="mobileQuery.matches" fixedTopGap="56">
+            <mat-nav-list>
+                <a mat-list-item (click)="navigateToDashboard()">
+                    <mat-icon aria-hidden="false" class="material-icons" aria-label="test">home</mat-icon>
+                    <p class="icon-alignment">Dashboard</p>
+                </a>
+                <a mat-list-item (click)="navigateToTest()">
+                    <mat-icon aria-hidden="false" class="material-icons" aria-label="test">assignment</mat-icon>
+                    <p class="icon-alignment">
+                        Self assesment
+                    </p>
+                </a>
+                <a mat-list-item (click)="navigateToHelpline()">
+                    <mat-icon aria-hidden="false" class="material-icons" aria-label="helpline">call</mat-icon>
+                    <p class="icon-alignment">
+                        Helpline
+                    </p>
+                </a>
+                <a mat-list-item (click)="navigateToAboutUs()">
+                    <mat-icon aria-hidden="false" class="material-icons" aria-label="about-us">person</mat-icon>
+                    <p class="icon-alignment" style="margin-top: 13%;">
+                        About us
+                    </p>
+                </a>
+                <a mat-list-item (click)="navigateToFeedBack()">
+                    <mat-icon aria-hidden="false" class="material-icons" aria-label="feedback">feedback</mat-icon>
+                    <p class="icon-alignment" style="margin-top: 7%;">Feedback</p>
+                </a>
+                <a mat-list-item (click)="navigateToDisclaimer()">
+                    <mat-icon aria-hidden="false" class="material-icons" aria-label="feedback">priority_high</mat-icon>
+                    <p class="icon-alignment" style="margin-top: 7%;">Disclaimer</p>
+                </a>
+                <!-- <label>version 1.0</label> -->
+            </mat-nav-list>
+
+
+        </mat-sidenav>
+
+        <mat-sidenav-content>
+            <div *ngIf="!displayFeedBack">
+                <div *ngIf="!hideHome">
+                    <div class="tbg" *ngIf="!renderResults" id="hidescroll">
+                        <div class="tbgwrap">
+                            <app-card [parentSubject]="parentSubject"> </app-card>
+                            <div class="tcontrols">
+                                <div (click)='cardAnimation("swipeleft")' class="tno" id="tno"><i class="fa fa-times" aria-hidden="true"></i></div>
+                                <div class="ti" id="ti"><i class="fa fa-info" aria-hidden="true"></i></div>
+                                <div (click)='cardAnimation("swiperight")' class="tyes" id="tyes"><i class="fa fa-check" aria-hidden="true"></i></div>
+                            </div>
+                        </div>
+                        <div class="who-card">
+                            <mat-card class="example-card">
+                                <mat-card-header>
+                                    <div id="shareIt" style="margin-left:15%;">
+                                        <button mat-stroked-button color="primary" (click)='callWHO()'>
+                                            click here to know more </button>
+                                    </div>
+                                    <!-- <div id="generatePDF">
+                                        <a href="javascript:void(0)" (click)="generatePdf()"> click here to download results </a>
+                                    </div> -->
+                                </mat-card-header>
+                            </mat-card>
+                        </div>
+                    </div>
+
+                    <div *ngIf="renderResults" class="results-card">
+                        <div *ngIf="contentDisplay">
+                            <mat-card>
+                                <mat-card-header>
+                                    <p style="margin-bottom: 3%;"> <strong> You must self-isolate.</strong> For further information please call the nearest helpline,
+                                        <a href="javascript:void(0)" (click)="navigateToHelpline()">click here</a>
+                                    </p>
+                                </mat-card-header>
+                                <mat-card-content>
+                                    <div>
+                                        <ul>
+                                            <h4>General Summary & Precautions:</h4>
+                                            <li>Because you have symptoms, you must self-isolate for 10 days from when your symptoms started and until they are resolved. </li>
+                                            <li>If your symptoms resolve prior to the 10 days, you must continue to self-isolate because you may still be infectious.</li>
+                                            <li>Please do not visit a hospital, physician’s office, lab or healthcare facility without consulting on the <a href="javascript:void(0)" (click)="navigateToHelpline()">helpline</a> first. </li>
+                                            <li>Don't go to any public places.</li>
+                                            <li>Stay at home, and don’t have any visitors.</li>
+                                            <li>Don’t share personal items like dishes, utensils, and towels.</li>
+                                            <li>Wash your hands often.</li>
+                                            <li>Avoid close contact with other people, especially those with chronic conditions, a compromised immune system, or seniors (over 65 years of age).</li>
+                                            <li>Encourage members of your family to practice social distancing.</li>
+                                        </ul>
+                                    </div>
+                                    <p>If you have any other questions about COVID-19,<a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019" target="_blank" rel="noopener noreferrer">click here</a> </p>
+
+                                </mat-card-content>
+                            </mat-card>
+                        </div>
+                        <div *ngIf="!contentDisplay">
+                            <mat-card class="example-card">
+                                <mat-card-header>
+                                    <p style="margin-bottom: 3%;"> <strong> General Summary & Precautions:</strong>
+                                    </p>
+                                </mat-card-header>
+                                <mat-card-content>
+                                    <div>
+                                        <ul>
+                                            <li>Since an infection with the coronavirus cannot be ruled out, please stay in your room if possible as the virus is easily transmitted.</li>
+                                            <li>Please do not visit a hospital, physician’s office, lab or healthcare facility without consulting on the helpline <a href="javascript:void(0)" (click)="navigateToHelpline()">click here</a> first. </li>
+                                            <li>Don't go to any public places.</li>
+                                            <li>Stay at home, and don’t have any visitors.</li>
+                                            <li>Don’t share personal items like dishes, utensils, and towels.</li>
+                                            <li>Wash your hands often.</li>
+                                            <li>Avoid close contact with other people, especially those with chronic conditions, a compromised immune system, or seniors (over 65 years of age).</li>
+                                            <li>Encourage members of your family to practice social distancing.</li>
+                                            <li>To keep the riskof infection low, please pay more attention to good hand hygiene. </li>
+                                            <li>When you leave the house, maintain a sufficient distance (at least 1.5 meters) from other people and follow the rules of conduct to protect against infection.</li>
+                                        </ul>
+                                    </div>
+                                    <p>If you have any other questions about COVID-19, <a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019" target="_blank" rel="noopener noreferrer">click here</a> </p>
+                                    <p>Summary:
+                                </mat-card-content>
+                            </mat-card>
+                        </div>
+                        <div>
+                        </div>
+                        <div class="results-card">
+                            <mat-card class="example-card">
+                                <mat-card-header>
+                                    <div id="shareIt" style="margin-left:-10%;">
+                                        <button mat-stroked-button color="primary" (click)='share()'>
+                                            click here to share this tool with others </button>
+                                    </div>
+                                    <!-- <div id="generatePDF">
+                                        <a href="javascript:void(0)" (click)="generatePdf()"> click here to download results </a>
+                                    </div> -->
+                                </mat-card-header>
+                            </mat-card>
+                        </div>
+                    </div>
+                </div>
+                <div *ngIf="hideHome">
+                    <helpline></helpline>
+                </div>
+            </div>
+            <div *ngIf="displayFeedBack && !displayAboutUs && !displayDashboard && !diplayDislaimer">
+                <feedback></feedback>
+            </div>
+            <div *ngIf="displayAboutUs">
+                <about-us></about-us>
+            </div>
+            <div *ngIf="displayDashboard">
+                <dashboard></dashboard>
+            </div>
+            <div *ngIf="diplayDislaimer">
+                <disclaimer></disclaimer>
+            </div>
+
+        </mat-sidenav-content>
+
+    </mat-sidenav-container>
+
+</div>

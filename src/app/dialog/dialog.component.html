@@ -1,0 +1,102 @@
+<!--component html goes here -->
+<div class="dialog">
+
+    <mat-icon aria-hidden="false" class="material-icons close-button" aria-label="test" (click)="onNoClick()">cancel</mat-icon>
+    <ul class="slides">
+        <input type="radio" name="radio-btn" id="img-1" checked />
+        <li class="slide-container">
+            <div class="slide" style="background-color: darkgrey;">
+                <h4> Allow location to get more accurate helpline centres in your region! </h4>
+                <img src="../assets/loc-hd.jpg" alt="location-service" class="img1" />
+            </div>
+            <div class="nav">
+                <label for="img-6" class="prev">&#x2039;</label>
+                <label for="img-2" class="next">&#x203a;</label>
+            </div>
+        </li>
+        <!-- Provide more accurate helpline related information in your region -->
+        <input type="radio" name="radio-btn" id="img-2" />
+        <li class="slide-container">
+            <div class="slide" style="background-color: #ffffff">
+                <p>
+                    Icovids.com is a tool to provide Self assesment check for Covid-19 (Novel Coronovirus). You can use it to get recommendations for action incase of any symptoms in just a few clicks. The tool asks you several Yes/no questions including symptoms and potential
+                    contacts. Besides recommendations for action, relevant contacts, and structured results, the purpose of this tool is to guide you safely through the various health care centres nearby. Please note that this tool does not provide diagnostic
+                    services and cannot be considered as the ultimate Covid Test tool. Please do not visit a hospital, physician’s office, lab or healthcare facility without consulting on the Hotline.
+                </p>
+
+            </div>
+            <div class="nav">
+                <label for="img-1" class="prev">&#x2039;</label>
+                <label for="img-3" class="next">&#x203a;</label>
+            </div>
+        </li>
+
+        <input type="radio" name="radio-btn" id="img-3" />
+        <li class="slide-container">
+            <div class="slide">
+                <img src="../../assets/images/covid-1.png" alt="covid-awareness" />
+            </div>
+            <div class="nav">
+                <label for="img-2" class="prev">&#x2039;</label>
+                <label for="img-4" class="next">&#x203a;</label>
+            </div>
+        </li>
+
+        <input type="radio" name="radio-btn" id="img-4" />
+        <li class="slide-container">
+            <div class="slide">
+                <img src="../../assets/images/covid-2.png" alt="covid-awareness" />
+            </div>
+            <div class="nav">
+                <label for="img-3" class="prev">&#x2039;</label>
+                <label for="img-5" class="next">&#x203a;</label>
+            </div>
+        </li>
+
+        <input type="radio" name="radio-btn" id="img-5" />
+        <li class="slide-container">
+            <div class="slide">
+                <img src="../../assets/images/covid-3.jpg" alt="covid-awareness" />
+            </div>
+            <div class="nav">
+                <label for="img-4" class="prev">&#x2039;</label>
+                <label for="img-6" class="next">&#x203a;</label>
+            </div>
+        </li>
+
+        <input type="radio" name="radio-btn" id="img-6" />
+        <li class="slide-container">
+            <div class="slide">
+                <img src="../../assets/images/whopregnancy1.png" alt="covid-awareness" />
+            </div>
+            <div class="nav">
+                <label for="img-5" class="prev">&#x2039;</label>
+                <label for="img-7" class="next">&#x203a;</label>
+            </div>
+        </li>
+
+        <input type="radio" name="radio-btn" id="img-7" />
+        <li class="slide-container">
+            <div class="slide">
+                <img src="../../assets/images/whopregnancy2.png" alt="covid-awareness" />
+            </div>
+            <div class="nav">
+                <label for="img-6" class="prev">&#x2039;</label>
+                <label for="img-1" class="next">&#x203a;</label>
+            </div>
+        </li>
+
+        <li class="nav-dots slider-buttons">
+            <label for="img-1" class="nav-dot" id="img-dot-1" #dot1></label>
+            <label for="img-2" class="nav-dot" id="img-dot-2" #dot2></label>
+            <label for="img-3" class="nav-dot" id="img-dot-3" #dot3></label>
+            <label for="img-4" class="nav-dot" id="img-dot-4" #dot4></label>
+            <label for="img-5" class="nav-dot" id="img-dot-5" #dot5></label>
+            <label for="img-6" class="nav-dot" id="img-dot-6" #dot6></label>
+            <label for="img-7" class="nav-dot" id="img-dot-7" #dot7></label>
+            <label class="skipNow" class="pause" (click)="skipNow()"> 
+            <strong> || </strong>
+            </label>
+        </li>
+    </ul>
+</div>

@@ -1,0 +1,238 @@
+.tbg {
+    /* prevents horizontal scroll bar appearing  */
+    /* overflow-x: hidden; */
+}
+
+.tbg {
+    height: 100%;
+    width: auto;
+    background-color: #fff;
+    margin: 0 auto;
+    /* padding-bottom: 14% !important; */
+    /* overflow-y: hidden !important; */
+    /* border: 1px solid #c0c0c0; */
+}
+
+.tbgwrap {
+    /* padding: 10px; */
+}
+
+.theader {
+    height: 65px;
+    border-bottom: 1px solid #c0c0c0;
+}
+
+.theader i.fa-comments {
+    color: #c0c0c0;
+    font-size: 40px;
+    display: inline-block;
+    float: right;
+    padding: 10px 20px;
+    position: relative;
+}
+
+.theader i.fa-cog {
+    color: #c0c0c0;
+    font-size: 40px;
+    display: inline-block;
+    float: left;
+    padding: 10px 20px;
+    position: relative;
+}
+
+.tlogo {
+    width: 100px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.tlogo img {
+    width: 100px;
+}
+
+.tno {
+    background-color: #fff;
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -o-border-radius: 50%;
+    -ms-border-radius: 50%;
+    position: relative;
+    display: inline-block;
+    top: 50px;
+    left: 25px;
+    border: 10px solid #f0f0f0;
+}
+
+.tno i {
+    color: #ff695b;
+    font-size: 80px;
+    padding: 17px 28px;
+}
+
+.ti {
+    background-color: #fff;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -o-border-radius: 50%;
+    -ms-border-radius: 50%;
+    position: relative;
+    display: inline-block;
+    left: 12px;
+    top: 30px;
+    border: 10px solid #f0f0f0;
+}
+
+.ti .fa-info {
+    font-size: 23px;
+    padding: 15px 20px;
+    color: #398beb;
+}
+
+.tyes {
+    background-color: #fff;
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -o-border-radius: 50%;
+    -ms-border-radius: 50%;
+    position: relative;
+    display: inline-block;
+    top: 48px;
+    left: 0px;
+    border: 10px solid #f0f0f0;
+}
+
+.tyes i {
+    color: #5de19c;
+    font-size: 60px;
+    padding: 35px 30px;
+}
+
+.credit {
+    width: 400px;
+    height: auto;
+    position: relative;
+    top: 60px;
+    text-align: center;
+    background-color: #f0f0f0;
+    padding: 2px 0px;
+}
+
+.credit a {
+    font-size: 7px;
+    letter-spacing: 5px;
+    color: #c0c0c0;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Helvetica', sans-serif;
+    font-style: italic;
+}
+
+.example-container {
+    display: block;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.example-is-mobile .example-toolbar {
+    position: fixed;
+    /* Make sure the toolbar will stay on top of the content as it scrolls past. */
+    z-index: 2;
+}
+
+h1.example-app-name {
+    margin-left: 20px;
+}
+
+.example-sidenav-container {
+    /* When the sidenav is not fixed, stretch the sidenav container to fill the available space. This
+       causes `<mat-sidenav-content>` to act as our scrolling element for desktop layouts. */
+    flex: 1;
+}
+
+.example-is-mobile .example-sidenav-container {
+    /* When the sidenav is fixed, don't constrain the height of the sidenav container. This allows the
+       `<body>` to be our scrolling element for mobile layouts. */
+    flex: 1 0 auto;
+}
+
+@media only screen and (min-width: 768px) {
+    #home {
+        display: block;
+        flex-direction: unset;
+        position: relative;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        width: 82%;
+        height: 73%;
+    }
+    #hidescroll {
+        padding-bottom: 14% !important;
+        overflow-y: hidden !important;
+    }
+    #tno {
+        height: 70px;
+        width: 70px;
+    }
+    #ti {
+        height: 70px;
+        width: 70px;
+    }
+    #ti i {
+        font-size: 60px;
+        padding: 6px 24px;
+    }
+    #tno i {
+        font-size: 60px;
+        padding: 6px 12px;
+    }
+    #tyes {
+        height: 70px;
+        width: 70px;
+    }
+    #tyes i {
+        font-size: 60px;
+        padding: 6px 5px;
+    }
+}
+
+.tcontrols {
+    /* padding-bottom: 15%; */
+    /* padding-left: 4%; */
+}
+
+.results-card {
+    padding: 3%;
+}
+
+.example-sidenav-container {
+    height: 100%;
+}
+
+.icon-alignment {
+    margin-left: 3%;
+}
+
+@media only screen and (max-width: 768px) {
+    .who-card {
+        display: block !important;
+    }
+}
+
+.who-card {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

@@ -1,0 +1,25 @@
+.invalid-feedback {
+    color: red;
+    font-size: 80%;
+    padding-left: 3%;
+}
+
+.feedbackMessage {
+    color: blue;
+    font-size: 80%;
+    margin-top: 4%;
+    text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+    .share-card {
+        display: block !important;
+    }
+}
+
+.share-card {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

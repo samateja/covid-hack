@@ -1,0 +1,19 @@
+.example-card {
+    max-width: 400px;
+    margin-top: 3%;
+}
+
+.example-header-image {
+    background-image: url('../../assets/sama.png');
+    background-size: cover;
+}
+
+.example-header-image1 {
+    background-image: url('../../assets/shreeram.png');
+    background-size: cover;
+}
+
+.imgWidth {
+    width: 24px;
+    height: 24px;
+}

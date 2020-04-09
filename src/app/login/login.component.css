@@ -1,0 +1,238 @@
+/* could use a refactor and a media query */
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+/* @import url("https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css"); */
+
+body {
+    padding: 2% 0;
+    background: #d6d6d6;
+    font-family: "Montserrat", sans-serif;
+    color: #fff;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.wrapper {
+    width: auto;
+    max-width: 483px;
+    margin: 0 auto;
+    color: #fff;
+    /* background: url('../../assets/bg.png') no-repeat; */
+}
+
+.wrapper .login {
+    width: auto;
+    position: relative;
+    margin: 0 auto;
+    /* padding: 30.5% 0% 43.5% 0%; */
+    /* background: url('../../assets/bg.png') no-repeat; */
+    height: 100%;
+}
+
+.wrapper .login .tabs {
+    margin-left: 3.5%;
+}
+
+.wrapper .login .tabs .tab {
+    max-width: 40%;
+    display: inline-block;
+    position: relative;
+    margin-right: 9%;
+    font-size: 22px;
+    letter-spacing: 2px;
+    word-spacing: -1px;
+    white-space: nowrap;
+    opacity: 0.2;
+    cursor: pointer;
+}
+
+.wrapper .login .tabs .tab.active {
+    opacity: 1;
+}
+
+.wrapper .login .tabs .tab.active:after {
+    content: "";
+    height: 2px;
+    position: absolute;
+    left: 1px;
+    right: 5px;
+    bottom: -8px;
+    background: #1161ed;
+}
+
+.wrapper .login form {
+    margin-top: 27.5%;
+}
+
+.wrapper .login form .input {
+    position: relative;
+}
+
+.wrapper .login form .input label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: -6.42%;
+    padding-left: 3.5%;
+    font-size: 13px;
+    font-weight: 500;
+    opacity: 0.5;
+    transition: all 0.3s ease;
+}
+
+.wrapper .login form .input input {
+    width: calc(93% - 4px);
+    height: 34px;
+    max-width: 93%;
+    margin-bottom: 10.5%;
+    padding: 0 3.5%;
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 2px solid transparent;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    color: #fff;
+    transition: all 0.3s ease;
+}
+
+.wrapper .login form .input input#password {
+    margin-bottom: 7.5%;
+}
+
+.wrapper .login form .input input:focus {
+    background: transparent;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, 0.4);
+}
+
+.wrapper .login form .input input:focus+label {
+    opacity: 0.7;
+}
+
+.wrapper .login form input[type="checkbox"] {
+    display: none;
+}
+
+.wrapper .login form input[type="checkbox"]+label {
+    position: relative;
+    margin-left: 3.5%;
+    padding-left: 22px;
+    font-size: 14px;
+}
+
+.wrapper .login form input[type="checkbox"]+label:before {
+    content: "\f122";
+    box-sizing: border-box;
+    width: 16px;
+    height: 16px;
+    padding: 3px 4px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    font-family: "Ionicons";
+    font-size: 10px;
+    border-radius: 2px;
+    background: #fff;
+    opacity: 0.2;
+    cursor: pointer;
+}
+
+.wrapper .login form input[type="checkbox"]:checked+label:before {
+    background: #1161ed;
+    opacity: 1;
+}
+
+.wrapper .login form button {
+    width: 100%;
+    height: 38px;
+    margin: 6.5% 0;
+    border-radius: 18px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+    background: #1161ed;
+    border: none;
+    cursor: pointer;
+}
+
+.wrapper .login form button:focus {
+    outline: none;
+}
+
+.wrapper .login form button:hover {
+    background: #4082f5;
+    box-shadow: 1px 2px 40px -8px #4082f5;
+}
+
+.wrapper .login form .forgot {
+    width: 100%;
+    margin-top: 12.35%;
+    padding-top: 11.85%;
+    font-size: 14px;
+    text-align: center;
+    border-top: 2px solid rgba(255, 255, 255, 0.2);
+    opacity: 0.2;
+}
+
+.wrapper .login form .forgot span {
+    cursor: pointer;
+}
+
+.invalid-feedback {
+    color: #f15151;
+    font-size: 10px;
+    padding: 2% 2% 2% 4%;
+}
+
+@media only screen and (min-width: 768px) {
+    #login {
+        position: relative;
+        padding: 10.5% 1% 41.5% 1%;
+        margin: 0px;
+        /* background: url('../../assets/bg.png') no-repeat;
+        background-size: cover; */
+        width: 80% !important;
+        height: auto;
+    }
+    .login-center {
+        padding-top: 0% !important;
+    }
+}
+
+.login-center {
+    padding-top: 35%;
+}
+
+select::-ms-expand {
+    display: none;
+}
+
+select {
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 0.5em 2em 0.5em 0.5em;
+    border: 1px solid #eee;
+    font: inherit;
+    line-height: inherit;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(45deg, transparent 50%, currentColor 50%), linear-gradient(135deg, currentColor 50%, transparent 50%);
+    background-position: right 15px top 1em, right 10px top 1em;
+    background-size: 5px 5px, 5px 5px;
+    width: 100%;
+    border-radius: 18px;
+    background-color: transparent;
+    color: #fff;
+    font-size: 15px;
+}
+
+option {
+    color: black;
+}

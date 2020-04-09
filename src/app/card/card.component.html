@@ -1,0 +1,22 @@
+<div class="tphoto" [@cardAnimator]="animationState" (@cardAnimator.done)="resetAnimationState($event)" (swipeleft)='startAnimation("swipeleft")' (swiperight)='startAnimation("swiperight")'>
+    <div *ngIf="users[index]">
+        <div class="image-prop">
+            <img [src]="users[index].picture" title="photo" alt="{{users[index].name}}" style="width:100%;height: 230px;" />
+        </div>
+
+        <div class="tname" id="tname">
+            <p style="text-align:center;">
+                {{users[index].name}} <img [src]="users[index].emoji" title="emoji" alt="{{users[index].emoji}}" style="width:10%;height:100%;">
+            </p>
+
+            <!-- <span class="age">{{users[index].age}}</span> -->
+            <!-- <div class="tinfo">
+            <i class="fa fa-book" aria-hidden="true"> 0</i>
+            <i class="fa fa-users" aria-hidden="true"> 0</i>
+        </div> -->
+        </div>
+    </div>
+    <div *ngIf="!users[index] === true?getResults(!users[index]):false">
+        Generating Results....
+    </div>
+</div>

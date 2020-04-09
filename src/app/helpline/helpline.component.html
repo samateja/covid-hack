@@ -1,0 +1,71 @@
+<!--component html goes here -->
+<div style="width:100%;" *ngIf="countryWise">
+    <mat-accordion displayMode="" [multi]="false" class="mat-table">
+        <mat-expansion-panel *ngFor="let item of ELEMENT_DATA; let i=index ">
+            <mat-expansion-panel-header>
+                <mat-panel-title>
+                    {{item.region}}
+                </mat-panel-title>
+            </mat-expansion-panel-header>
+            <mat-accordion *ngIf="item.values" lass="mat-table">
+                <mat-expansion-panel *ngFor="let subList of item.values" style="font-size: 3vw;">
+                    <mat-expansion-panel-header>
+                        <mat-panel-title>
+                            {{subList.place}}
+                        </mat-panel-title>
+                    </mat-expansion-panel-header>
+                    <div style="margin-left: -6%;" *ngIf="subList.job">
+                        <span>
+                            <span class="custom-remarks" title="{{subList.job}}"><strong>{{subList.job}}</strong></span>
+                        </span>
+                    </div>
+                    <div style="margin-left: -12%;">
+                        <ul>
+                            <li *ngIf="subList.phonenumber">
+                                <span class="custom-phone" title="{{subList.phonenumber}}">  <a href="{{'tel:'+subList.phonenumber}}"> {{subList.phonenumber}} 
+                                </a>
+                                </span>
+                            </li>
+                            <li *ngIf="subList.openinghours">
+                                <span class="custom-op" title="{{subList.openinghours}}"> {{subList.openinghours}} </span>
+                            </li>
+                            <li *ngIf="subList.remarks">
+                                <span class="custom-remarks" title="{{subList.remarks}}">{{subList.remarks}}</span>
+                            </li>
+                            <!-- <li *ngIf="subList.job">
+                                <span class="custom-remarks" title="{{subList.job}}">{{subList.job}}</span>
+                            </li> -->
+                            <li *ngIf="subList.url">
+                                <a href="{{subList.url}}" target="_blank" rel="noopener noreferrer">more info</a>
+                            </li>
+                        </ul>
+                    </div>
+                </mat-expansion-panel>
+            </mat-accordion>
+        </mat-expansion-panel>
+    </mat-accordion>
+</div>
+<div style="width:100%" *ngIf="!countryWise">
+    <!-- <div style="width:100%;" *ngIf="activateBackButton">
+        <span (click)="generateTable('', '')">
+        <mat-icon>navigate_before</mat-icon> Back to list
+      </span>
+    </div> -->
+    <mat-accordion displayMode="" multi class="mat-table">
+        <mat-expansion-panel *ngFor="let item of ELEMENT_DATA; let i=index ">
+            <mat-expansion-panel-header (click)="generateTable('', item.name)">
+                <mat-panel-title>
+                    {{item.name}}
+                </mat-panel-title>
+            </mat-expansion-panel-header>
+        </mat-expansion-panel>
+    </mat-accordion>
+</div>
+<div class="info-text" *ngIf="spinner && !countryWise" style="margin-top: 10%;">
+    <div>
+        <feedback></feedback>
+    </div>
+</div>
+<div style="width:100%;margin: 30%;">
+    <mat-spinner *ngIf="!spinner"></mat-spinner>
+</div>

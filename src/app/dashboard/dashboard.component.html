@@ -1,0 +1,104 @@
+<!--component html goes here -->
+<div>
+    <mat-grid-list cols="2" rowHeight="2:2">
+        <mat-grid-tile (click)="navigateToHelpline()">
+            <mat-card class="special-card" style="padding: 0% 17% 0% 17% !important;">
+                <mat-card-header>
+                    <mat-card-title>
+                        <p>
+                            <mat-icon aria-hidden="false" class="material-icons" aria-label="helpline">call</mat-icon>
+                        </p>
+                    </mat-card-title>
+                    <mat-card-subtitle>Helpline</mat-card-subtitle>
+                </mat-card-header>
+            </mat-card>
+        </mat-grid-tile>
+        <mat-grid-tile (click)="navigateToTest()">
+            <mat-card class="special-card" style="padding: 0px !important;">
+                <mat-card-header>
+                    <mat-card-title>
+                        <p>
+                            <mat-icon aria-hidden="false" class="material-icons" aria-label="helpline">assignment</mat-icon>
+                        </p>
+                    </mat-card-title>
+                    <mat-card-subtitle>Self Assesment</mat-card-subtitle>
+                </mat-card-header>
+            </mat-card>
+        </mat-grid-tile>
+        <mat-grid-tile (click)="navigateToFeedBack()">
+            <mat-card class="special-card" style="padding: 0% 10% 0% 10% !important;">
+                <mat-card-header>
+                    <mat-card-title>
+                        <p>
+                            <mat-icon aria-hidden="false" class="material-icons" aria-label="helpline">feedback</mat-icon>
+                        </p>
+                    </mat-card-title>
+                    <mat-card-subtitle>Feedback</mat-card-subtitle>
+                </mat-card-header>
+            </mat-card>
+        </mat-grid-tile>
+        <mat-grid-tile (click)="navigateToAboutUs()">
+            <mat-card class="special-card" style="padding: 0% 17% 0% 17% !important;">
+                <mat-card-header>
+                    <mat-card-title>
+                        <p>
+                            <mat-icon aria-hidden="false" class="material-icons" aria-label="helpline">person</mat-icon>
+                        </p>
+                    </mat-card-title>
+                    <mat-card-subtitle>About us</mat-card-subtitle>
+                </mat-card-header>
+            </mat-card>
+        </mat-grid-tile>
+    </mat-grid-list>
+
+    <div class="stats">
+        <mat-card>
+            <mat-card-header style="width:100%; margin:0px;display: inline-block;">
+                <div *ngIf="!mapStyles">
+                    <div style="width:100%;">
+                        <div style="width:10%; float:left">
+                            <mat-icon aria-hidden="false" class="material-icons" aria-label="info">info_outline</mat-icon>
+                        </div>
+                        <div style="width:70%; float:left;margin-left: 12%;">
+                            <p style="margin-top:18px;font-size:12px;">Global Confirmed Cases</p>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div *ngIf="mapStyles">
+                    <div style="width:100%;">
+                        <div style="width:10%; float:left">
+                            <p [ngClass]="mapStyles" style="margin: 0%;"></p>
+                        </div>
+                        <div style="width:80%; float:left; ;margin-left: 10%;">
+                            <p style="margin-top:10px;font-size:14px;">Total Confirmed Cases</p>
+                        </div>
+                    </div>
+                </div>
+            </mat-card-header>
+            <mat-card-content>
+                <div>
+                    <mat-list>
+                        <mat-list-item> <button mat-mini-fab color="warn" class="count-items"></button>
+                            <p>Active Cases : <strong>
+                                {{confirmedCount}}
+                               </strong></p>
+                        </mat-list-item>
+                        <mat-list-item> <button mat-mini-fab color="warn" class="count-items" style="background-color:#60BB69"></button>
+                            <p style="font-size: 15px;">Recoverd Cases : <strong>
+                                {{recoveredCount}}
+                               </strong></p>
+                        </mat-list-item>
+                        <mat-list-item><button mat-mini-fab class="count-items" style="background-color:#767676 !important;"></button>
+                            <p>Fatal Cases : <strong>
+                                {{deathsCount}}
+                               </strong></p>
+                        </mat-list-item>
+                    </mat-list>
+                </div>
+            </mat-card-content>
+        </mat-card>
+    </div>
+
+</div>
