@@ -1,0 +1,341 @@
+﻿{
+
+  "alldata": [
+    {
+      "region": "Berlin",
+      "values": [
+        {
+          "place": "Berlin",
+          "job": "Health department",
+          "phonenumber": "+49 30 9028-2828",
+          "openinghours": "Mon - Sun 8:00 a.m. - 8:00 p.m.",
+          "remarks": "Coronavirus telephone hotline",
+          "url": "https://www.berlin.de/sen/gesundheit/themen/gesundheitsschutz-und-umwelt/infektionsschutz/coronavirus/"
+        }         
+      ]
+    },
+    {
+      "region": "Baden",
+      "values": [
+        {
+          "place": "Boblingen",
+          "job": "Health department",
+          "phonenumber": "+49 7031 663-3500",
+          "openinghours": "8 a.m. to 8 p.m. daily",
+          "remarks": "Test center for the district of Böblingen",
+          "url": "https://www.lrabb.de/start/Aktuelles/zentrales+testzentrum+fuer+den+landkreis+boeblingen+eeinicht.html"
+        },
+        {
+          "place": "Esslingen",
+          "job": "State Health Office",
+          "phonenumber": "+49 711 904-39555",
+          "openinghours": "Mon to Fri, 9 a.m. to 4 p.m.",
+          "remarks": "Coronavirus telephone hotline",
+          "url": "https://www.landkreis-esslingen.de/,Lde,(anker16641792)/start/service/gesundheitsamt.html#anker16641792"
+        },
+        {
+          "place": "Goppingen",
+          "job": "State Health Office",
+          "phonenumber": "+49 711 904-39555",
+          "openinghours": "Mon to Fri, 9 a.m. to 4 p.m.",
+          "remarks": "Coronavirus telephone hotline",
+          "url": "https://www.landkreis-goeppingen.de/start/Landratsamt/coronavirus.html"
+        },
+        {
+          "place": "Karlsruhe",
+          "job": "City of Karlsruhe",
+          "phonenumber": "+49 721 133-3333",
+          "openinghours": "Mon to Sun, 9 a.m. to 4 p.m.",
+          "remarks": "Coronavirus telephone hotline",
+          "url": "https://corona.karlsruhe.de/"
+        },
+        {
+          "place": "Ludwigsburg",
+          "job": "court House",
+          "phonenumber": "+49 7141 144-69400",
+          "openinghours": "Mon - Fri 8.30 a.m. - 12.30 p.m. Mon - Thu 2 p.m. - 4 p.m.",
+          "remarks": "Coronavirus telephone hotline",
+          "url": "https://www.landkreis-ludwigsburg.de/de/gesundheit-veterinaerwesen/gesundheit/neues-zu-coronaviren/"
+        },
+        {
+          "place": "Mannheim",
+          "job": "City of Mannheim",
+          "phonenumber": "+49 621 2932253",
+          "openinghours": "Mon - Sun 7.30 a.m. - 7 p.m.",
+          "remarks": "Coronavirus telephone hotline",
+          "url": "https://www.morgenweb.de/newsticker_ticker,-mannheim-stadt-schalts-corona-hotline-_tickerid,120900.html"
+        },
+        {
+          "place": "Stuttgart",
+          "job": "Health department",
+          "phonenumber": "+49 711 216-59390 / +49 711 216-59309",
+          "openinghours": "Mon to Fri, 9 a.m. to 5 p.m. Sa and Sun 10 a.m. to 2 p.m. / Mon to Fri, 9 a.m. to 5 p.m.",
+          "remarks": "Coronavirus telephone hotline",
+          "url": "https://stuttgart.de/item/show/305802/1/dept/1475?"
+        },
+        {
+          "place": "Stuttgart",
+          "job": "State Health Office",
+          "phonenumber": "+49 711 904 39555",
+          "remarks": "Coronavirus telephone hotline"
+        },
+        {
+          "place": "Rems.Murr district",
+          "job": "court House",
+          "phonenumber": "+49 7151 501-3000",
+          "openinghours": "Mon to Fri, 8 a.m. to 5 p.m.",
+          "remarks": "Coronavirus telephone hotline",
+          "url": "https://www.rems-murr-kreis.de/jugend-gesundheit-soziales/gesundheit/coronavirus-aktuelle-informationen/"
+        }
+      ]
+    },
+    {
+      "region": "Brandenburg",
+      "values": [
+        {
+          "place": "Brandenburg",
+          "job": "Federal Ministry of Health",
+          "phonenumber": "+49 03 3464 65100",
+          "openinghours": "No information",
+          "remarks": "Coronavirus telephone hotline",
+          "url": "https://www.inforadio.de/dossier/2020/coronavirus/corona--wichtige-telefonnummern-und-seiten.html"
+        },
+        {
+          "place": "Brandenburg",
+          "job": "Nationwide",
+          "phonenumber": "+49 331 8683 777",
+          "openinghours": "No information",
+          "remarks": "Coronavirus telephone hotline",
+          "url": "https://www.inforadio.de/dossier/2020/coronavirus/corona--wichtige-telefonnummern-und-seiten.html"
+        }
+      ]
+    },
+    {
+      "region": "Bremen",
+      "values": [
+        {
+          "place": "Bremen",
+          "job": "No information",
+          "phonenumber": "+49 421 115",
+          "openinghours": "No information",
+          "remarks": "Coronavirus telephone hotline",
+          "url": "https://www.bremen.de/leben-in-bremen/nachrichten/corona"
+        }
+      ]
+    },
+    {
+      "region": "Hamburg",
+      "values": [
+        {
+          "place": "Hamburg",
+          "job": "No information",
+          "phonenumber": "+49 40 428 284 000",
+          "openinghours": "No information",
+          "remarks": "Coronavirus telephone hotline",
+          "url": "https://www.hamburg.de/coronavirus/13429836/informationen/"
+        }
+      ]
+    },
+    {
+      "region": "Hesse",
+      "values": [
+        {
+          "place": "State of Hesse",
+          "job": "Nationwide",
+          "phonenumber": "+49 800-5554666",
+          "openinghours": "Mon - Sun 8 a.m. - 8 p.m.",
+          "remarks": "Corona Hotline Nationwide for all of Hesse",
+          "url": "https://frankfurt.de/service-und-rathaus/verwaltung/aemter-und-institutionen/gesundheitsamt/informationen-zum-neumachen-coronavirus-sars-cov-2"
+        }
+      ]
+    },
+    {
+      "region": "Mecklenburg-West Pomerania",
+      "values": [
+        {
+          "place": "Meckpom",
+          "job": "Ministry of Health",
+          "phonenumber": "+49 385 588 5888",
+          "openinghours": "Mon - Thu, 9 a.m. - 12 p.m. 1 p.m. - 3 p.m.",
+          "remarks": "Coronavirus telephone hotline",
+          "url": "https://www.regierung-mv.de/Landesregierung/wm/Aktuelles--Blickpunkt/Wichtige-Informationen-zum-Corona%E2%80%93Virus"
+        }
+      ]
+    },
+    {
+      "region": "Lower Saxony",
+      "values": [
+        {
+          "place": "Hanover",
+          "job": "IHK",
+          "phonenumber": "0511 / 3107-468",
+          "openinghours": "Mon - Thu, 8 a.m. - 4 p.m. & Fri 8 a.m. - 2 p.m.",
+          "remarks": "Information for companies"
+        },
+        {
+          "place": "Osnabruck",
+          "job": "Health service district and city",
+          "phonenumber": "0541 501-1111",
+          "openinghours": "Mon - Fri 9 a.m. - 5 p.m., Sat + Sun 9 a.m. - 1 p.m.",
+          "remarks": "Medical issues"
+        }
+      ]
+    },
+    {
+      "region": "North Rhine-Westphalia",
+      "values": [
+        {
+          "place": "Dortmund",
+          "job": "Health department",
+          "phonenumber": "0231 50-13150",
+          "openinghours": "Mon - Fri, 7 a.m. - 6 p.m.",
+          "remarks": "Test registration, information"
+        },
+        {
+          "place": "Aachen (city region)",
+          "job": "Smear center Eschweiler",
+          "phonenumber": "0241 5198-7500",
+          "openinghours": "Mon - Fri, 8 a.m. - 6 p.m.",
+          "remarks": "Test registration"
+        },
+        {
+          "place": "Aachen (city region)",
+          "job": "Health department",
+          "phonenumber": "0241 510051",
+          "openinghours": "Mon - Fri, 8 a.m. - 6 p.m., Sat - Sun 8 a.m. - 3 p.m.",
+          "remarks": "information"
+        },
+        {
+          "place": "NRW (country)",
+          "job": "Ministry of Health",
+          "phonenumber": "0211 91191001",
+          "openinghours": "NA",
+          "remarks": "Corona virus hotline"
+        },
+        {
+          "place": "Wuppertal",
+          "job": "Health department",
+          "phonenumber": "0202-563-2800",
+          "openinghours": "NA",
+          "remarks": "Willy-Brandt-Platz 19 42105 Wuppertal Smear registration possible"
+        }
+      ]
+    },
+    {
+      "region": "Saarland",
+      "values": [
+        {
+          "place": "Saarland Global",
+          "job": "Ministry of Health Situation Center on the Corona Virus",
+          "phonenumber": "0681 501 4422",
+          "openinghours": "Mon-Fri 7 a.m. - midnight & Sat-Sun 9 a.m. - 3 p.m.",
+          "remarks": "https://nitter.net/saarland_de/status/1238452975850397696#m"
+        }
+      ]
+    },
+    {
+      "region": "Schleswig-Holstein",
+      "values": [
+        {
+          "place": "SH (country)",
+          "job": "Citizens' phone Land SH",
+          "phonenumber": "0431 - 797 000 01",
+          "openinghours": "na",
+          "remarks": "Mail:corona@lr.landsh.de"
+        },
+        {
+          "place": "Stormarn district",
+          "job": "Citizen's telephone district Stormarn",
+          "phonenumber": "0 45 31/1 60 11 60",
+          "openinghours": "Mon-Thu: 9 am-3pm / Fri: 9 am-12pm"
+        }
+      ]
+    },
+    {
+      "region": "Bavaria",
+      "values": [
+        {
+          "place": "Bavaria",
+          "job": "Nationwide",
+          "phonenumber": "+49 9131 6808-5101",
+          "openinghours": "No information",
+          "remarks": "Coronavirus telephone hotline",
+          "url": "https://www.stmgp.bayern.de/vorsorge/infektionsschutz/infektionsmonitor-bayern/#cc-tab-15e6cb22a0544a"
+        },
+        {
+          "place": "City and district of Fürth",
+          "phonenumber": "+49 911 97733039",
+          "openinghours": "Monday to Wednesday 7.30am to 4pm, Thursday 7.30am to 5pm and Friday 7.30am to 12.30pm",
+          "remarks": "Coronavirus telephone hotline"
+        },
+        {
+          "place": "Nuremberg",
+          "phonenumber": "+49 911 23110666",
+          "openinghours": "Monday to Thursday 8.30 a.m. to 4 p.m., Friday from 8.30 a.m. to 12 p.m.",
+          "remarks": "Coronavirus telephone hotline"
+        },
+        {
+          "place": "Schwabach and Roth",
+          "phonenumber": "+49 9171 811601",
+          "openinghours": "no information",
+          "remarks": "Coronavirus telephone hotline"
+        },
+        {
+          "place": "Bavaria, Middle Franconia",
+          "job": "Citizen's phone State Health Department",
+          "phonenumber": "+49 9131 8032655",
+          "openinghours": "no information",
+          "remarks": "Coronavirus telephone hotline"
+        },
+        {
+          "place": "Bamberg",
+          "job": "LRA Bamberg",
+          "phonenumber": "+49 951 859700",
+          "openinghours": "Monday - Thursday 8 a.m. - 5 p.m., Friday 8 a.m. - 12 p.m.",
+          "remarks": "Coronavirus telephone hotline",
+          "url": "https://www.stadt.bamberg.de/coronavirus"
+        },
+        {
+          "place": "Munich",
+          "job": "Health office Munich",
+          "phonenumber": "+49 89 23344740",
+          "openinghours": "daily 8 a.m. - 6 p.m.",
+          "remarks": "Coronavirus telephone hotline",
+          "url": "https://www.muenchen.de/rathaus/Stadtverwaltung/Referat-fuer-Gesundheit-und-Umwelt/Infektionsschutz/Neuartiges_Coronavirus.html/rgu.infektionsschutz@muenchen.de"
+        },
+        {
+          "place": "City and district of Regensburg",
+          "job": "Health department for the district and city of Regensburg",
+          "phonenumber": "+49 941 4009777",
+          "openinghours": "Monday to Friday from 8 a.m. to 4 p.m.",
+          "remarks": "Coronavirus telephone hotline",
+          "url": "https://www.regensburg.de/aktuelles/coronavirus"
+        },
+        {
+          "place": "City and district of Würzburg",
+          "job": "Citizen phone for the district and city of Regensburg",
+          "phonenumber": "+49 931 80035100",
+          "openinghours": "Monday to Friday from 8 a.m. to 4 p.m.Sam., Son, FT: 10:00 a.m. - 4:00 p.m.",
+          "remarks": "Coronavirus telephone hotline",
+          "url": "https://www.regensburg.de/aktuelles/coronavirus"
+        },
+        {
+          "place": "Ingolstadt",
+          "job": "Ingolstadt city",
+          "phonenumber": "+49 841 3051430",
+          "openinghours": "Monday to Friday 8 a.m. to 8 p.m., weekends 9 a.m. to 6 p.m.",
+          "remarks": "Coronavirus telephone hotline",
+          "url": "https://www.ingolstadt.de/corona"
+        },
+        {
+          "place": "augsburg",
+          "job": "City of Augsburg",
+          "phonenumber": "+49 821 3244444",
+          "openinghours": "Mondays to Fridays from 8 a.m. to 8 p.m., Saturdays and Sundays from 10 a.m. to 6 p.m.",
+          "remarks": "Coronavirus telephone hotline",
+          "url": "https://www.augsburg.de/umwelt-soziales/gesundheit/coronavirus"
+        }
+      ]
+    }
+  ]
+}

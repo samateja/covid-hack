@@ -1,0 +1,567 @@
+﻿{
+  "alldata": [
+    {
+      "region": "Andhra Pradesh",
+      "values": [
+        {
+          "place": "Tirupati",
+          "job": "Sri Venkateswara Institute of Medical Sciences",
+          "phonenumber": "0866-2410978",
+          "openinghours": "No information",
+          "remarks": "Coronavirus telephone hotline"
+        },
+        {
+          "place": "Visakhapatnam",
+          "job": "Andhra Medical College",
+          "phonenumber": "0866-2410979",
+          "openinghours": "No information",
+          "remarks": "Coronavirus telephone hotline"
+        },
+        {
+          "place": "Anantapur",
+          "job": "Government Medical College",
+          "phonenumber": "0866-2410980",
+          "openinghours": "No information",
+          "remarks": "Coronavirus telephone hotline"
+        }
+      ]
+    },
+    {
+      "region": "Andaman & Nicobar Islands",
+      "values": [
+        {
+          "place": "Port Blair",
+          "job": "Regional Medical Research Centre",
+          "phonenumber": "03192-232102",
+          "remarks": "Coronavirus telephone hotline"
+        }
+      ]
+    },
+    {
+      "region": "Assam",
+      "values": [
+        {
+          "place": "Guwahati",
+          "job": "Gauhati Medical College",
+          "phonenumber": "6913347770",
+          "openinghours": "No information",
+          "remarks": "Coronavirus telephone hotline"
+        },
+        {
+          "place": "Dibrugarh",
+          "job": "Regional Medical Research Center",
+          "phonenumber": "6913347770",
+          "openinghours": "No information",
+          "remarks": "Coronavirus telephone hotline"
+        }
+      ]
+    },
+    {
+      "region": "Bihar",
+      "values": [
+        {
+          "place": "Patna",
+          "job": "Rajendra Memorial Research Institute of Medical Sciences",
+          "phonenumber": "104",
+          "openinghours": "No information",
+          "remarks": "Coronavirus telephone hotline"
+        }
+      ]
+    },
+    {
+      "region": "Chhattisgarh",
+      "values": [
+        {
+          "place": "Raipur",
+          "job": "All India Institute Medical Sciences",
+          "phonenumber": "104",
+          "openinghours": "No information",
+          "remarks": "Corona Hotline Statewide "
+        }
+      ]
+    },
+    {
+      "region": "Chandigarh",
+      "values": [
+        {
+          "place": "Chandigarh",
+          "job": "Post Graduate Institute of Medical Education & Research",
+          "phonenumber": "9779558282",
+          "openinghours": "No information",
+          "remarks": "Corona Hotline Statewide "
+        }
+      ]
+    },
+    {
+      "region": "Delhi-NCR",
+      "values": [
+        {
+          "place": "Delhi",
+          "job": "All India Institute Medical Sciences",
+          "phonenumber": "011-22307145",
+          "openinghours": "No information",
+          "remarks": "Corona Hotline  "
+        },
+        {
+          "place": "Delhi",
+          "job": "National Centre for Disease Control",
+          "phonenumber": "011-22307145",
+          "openinghours": "No information",
+          "remarks": "Corona Hotline  "
+        }
+      ]
+    },
+    {
+      "region": "Gujarat",
+      "values": [
+        {
+          "place": "Ahmedabad",
+          "job": "BJ Medical College",
+          "phonenumber": "104",
+          "openinghours": "No information",
+          "remarks": "Corona Hotline  "
+        },
+        {
+          "place": "Jamnagar",
+          "job": "M.P.Shah Government Medical College",
+          "phonenumber": "104",
+          "openinghours": "No information",
+          "remarks": "Corona Hotline  "
+        }
+      ]
+    },
+    {
+      "region": "Haryana",
+      "values": [
+        {
+          "place": "Rohtak",
+          "job": "Pt. B.D. Sharma Post Graduate Inst. of Med. Sciences",
+          "phonenumber": "8558893911",
+          "openinghours": "No information",
+          "remarks": "Corona Hotline  "
+        },
+        {
+          "place": "Sonipat",
+          "job": "BPS Govt Medical College",
+          "phonenumber": "8558893911",
+          "openinghours": "No information",
+          "remarks": "Corona Hotline  "
+        }
+      ]
+    },
+    {
+      "region": "Himachal Pradesh",
+      "values": [
+        {
+          "place": "Shimla",
+          "job": "Indira Gandhi Medical College",
+          "phonenumber": "104",
+          "openinghours": "No information",
+          "remarks": "Corona Hotline  "
+        },
+        {
+          "place": "Kangra, Tanda",
+          "job": "Dr.Rajendra Prasad Govt. Med. College",
+          "phonenumber": "104",
+          "openinghours": "No information",
+          "remarks": "Corona Hotline  "
+        }
+      ]
+    },
+    {
+      "region": "Jammu and Kashmir",
+      "values": [
+        {
+          "place": "Srinagar",
+          "job": "Sher-e- Kashmir Institute of Medical Sciences",
+          "phonenumber": "01912520982",
+          "openinghours": "No information",
+          "remarks": "Corona Hotline  "
+        },
+        {
+          "place": "Jammu",
+          "job": "Government Medical College",
+          "phonenumber": "0194-2440283",
+          "openinghours": "No information",
+          "remarks": "Corona Hotline  "
+        }
+      ]
+    },
+    {
+      "region": "Jharkand",
+      "values": [
+        {
+          "place": "Jamshedpur",
+          "job": " MGM Medical College",
+          "phonenumber": "104",
+          "openinghours": "No information",
+          "remarks": "Corona Hotline  "
+        }
+      ]
+    },
+    {
+      "region": "Karnataka",
+      "values": [
+        {
+          "place": "Bangalore",
+          "job": "Bangalore Medical College & Research Institute",
+          "phonenumber": "104",
+          "openinghours": "No information",
+          "remarks": "Corona Hotline  "
+        },
+        {
+          "place": "Bangalore",
+          "job": "National Institute of Virology Field Unit",
+          "phonenumber": "104",
+          "openinghours": "No information",
+          "remarks": "Corona Hotline  "
+        },
+        {
+          "place": "Mysore",
+          "job": "Mysore Medical College & Research Institute",
+          "phonenumber": "104",
+          "openinghours": "No information",
+          "remarks": "Corona Hotline  "
+        },
+        {
+          "place": "Hassan",
+          "job": "Hassan Inst. of Med. Sciences",
+          "phonenumber": "104",
+          "openinghours": "No information",
+          "remarks": "Corona Hotline  "
+        },
+        {
+          "place": "Shivamogga",
+          "job": "Shimoga Inst. of Med. Sciences",
+          "phonenumber": "104",
+          "openinghours": "No information",
+          "remarks": "Corona Hotline  "
+        }
+      ]
+    },
+    {
+      "region": "Kerala",
+      "values": [
+        {
+          "place": "Kerala",
+          "job": "National Institute of Virology Field Unit",
+          "phonenumber": "0471-2552057",
+          "openinghours": "No information",
+          "remarks": "Corona Hotline  "
+        },
+        {
+          "place": "Thriuvananthapuram",
+          "job": "Govt. Medical College",
+          "phonenumber": "0471-2552058",
+          "openinghours": "No information",
+          "remarks": "Corona Hotline  "
+        },
+        {
+          "place": "Kozhikhode",
+          "job": "Govt. Medical College",
+          "phonenumber": "0471-2552059",
+          "openinghours": "No information",
+          "remarks": "Corona Hotline  "
+        }
+      ]
+    },
+    {
+      "region": "Madhya Pradesh",
+      "values": [
+        {
+          "place": "Bhopal",
+          "job": "All India Institute Medical Sciences",
+          "phonenumber": "0755-2527177",
+          "openinghours": "No information",
+          "remarks": "Corona Hotline  "
+        },
+        {
+          "place": "Jabalpur",
+          "job": "National Institute of Research in Tribal Health (NIRTH)",
+          "phonenumber": "0755-2527177",
+          "openinghours": "No information",
+          "remarks": "Corona Hotline  "
+        }
+      ]
+    },
+    {
+      "region": "Meghalaya",
+      "values": [
+        {
+          "place": "Shillong",
+          "job": "NEIGRI of Health and Medical Sciences",
+          "phonenumber": "108",
+          "openinghours": "No information",
+          "remarks": "Corona Hotline  "
+        }
+      ]
+    },
+    {
+      "region": "Maharashtra",
+      "values": [
+        {
+          "place": "Nagpur",
+          "job": "Indira Gandhi Government Medical College",
+          "phonenumber": "020-26127394",
+          "openinghours": "No information",
+          "remarks": "Corona Hotline  "
+        },
+        {
+          "place": "Mumbai",
+          "job": "Kasturba Hospital for Infectious Diseases",
+          "phonenumber": "020-26127395",
+          "openinghours": "No information",
+          "remarks": "Corona Hotline  "
+        }
+      ]
+    },
+    {
+      "region": "Manipur",
+      "values": [
+        {
+          "place": "Imphal-East",
+          "job": "J N Inst. of Med. Sciences Hospital",
+          "phonenumber": "3852411668",
+          "openinghours": "No information",
+          "remarks": "Corona Hotline  "
+        }
+      ]
+    },
+    {
+      "region": "Odisha",
+      "values": [
+        {
+          "place": "Bhubaneswar",
+          "job": "Regional Medical Research Center",
+          "phonenumber": "9439994859",
+          "openinghours": "No information",
+          "remarks": "Corona Hotline  "
+        }
+      ]
+    },
+    {
+      "region": "Puducherry",
+      "values": [
+        {
+          "place": "Puducherry",
+          "job": "Jawaharlal Institute of Postgraduate Medical Education & Research",
+          "phonenumber": "104",
+          "openinghours": "No information",
+          "remarks": "Corona Hotline  "
+        }
+      ]
+    },
+    {
+      "region": "Punjab",
+      "values": [
+        {
+          "place": "Patiala",
+          "job": "Government Medical College",
+          "phonenumber": "104",
+          "openinghours": "No information",
+          "remarks": "Corona Hotline  "
+        },
+        {
+          "place": "Amritsar",
+          "job": "Government Medical College",
+          "phonenumber": "104",
+          "openinghours": "No information",
+          "remarks": "Corona Hotline  "
+        }
+      ]
+    },
+    {
+      "region": "Rajasthan",
+      "values": [
+        {
+          "place": "Jaipur",
+          "job": "Sawai Man Singh Hospital",
+          "phonenumber": "0141-2225624",
+          "openinghours": "No information",
+          "remarks": "Corona Hotline  "
+        },
+        {
+          "place": "Jodhpur",
+          "job": "Dr. S.N Medical College",
+          "phonenumber": "0141-2225625",
+          "openinghours": "No information",
+          "remarks": "Corona Hotline  "
+        },
+        {
+          "place": "Jhalawar",
+          "job": "Jhalawar Medical College",
+          "phonenumber": "0141-2225626",
+          "openinghours": "No information",
+          "remarks": "Corona Hotline  "
+        },
+        {
+          "place": "Bikaner ",
+          "job": "SP Med. College",
+          "phonenumber": "0141-2225627",
+          "openinghours": "No information",
+          "remarks": "Corona Hotline  "
+        }
+      ]
+    },
+    {
+      "region": "Tamil Nadu",
+      "values": [
+        {
+          "place": "Chennai",
+          "job": "Kings Institute of Preventive Medicine & Research, Chennai",
+          "phonenumber": "044-29510500",
+          "openinghours": "No information",
+          "remarks": "Corona Hotline  "
+        },
+        {
+          "place": "Theni",
+          "job": "Government Medical College, Theni",
+          "phonenumber": "044-29510500",
+          "openinghours": "No information",
+          "remarks": "Corona Hotline  "
+        }
+      ]
+    },
+    {
+      "region": "Tripura",
+      "values": [
+        {
+          "place": "Agartala",
+          "job": "Government Medical College",
+          "phonenumber": "0381-2315879",
+          "openinghours": "No information",
+          "remarks": "Corona Hotline  "
+        }
+      ]
+    },
+    {
+      "region": "Telangana",
+      "values": [
+        {
+          "place": "Secunderabad",
+          "job": "Gandhi Medical College",
+          "phonenumber": "104",
+          "openinghours": "No information",
+          "remarks": "Corona Hotline  "
+        }
+      ]
+    },
+    {
+      "region": "Uttar Pradesh",
+      "values": [
+        {
+          "place": "Lucknow",
+          "job": "Kings George Medical University",
+          "phonenumber": "18001805145",
+          "openinghours": "No information",
+          "remarks": "Corona Hotline  "
+        },
+        {
+          "place": "Varanasi",
+          "job": "Institute of Medical Sciences, Banaras Hindu University",
+          "phonenumber": "18001805145",
+          "openinghours": "No information",
+          "remarks": "Corona Hotline  "
+        },
+        {
+          "place": "Aligarh",
+          "job": "Jawaharlal Nehru Medical College",
+          "phonenumber": "18001805145",
+          "openinghours": "No information",
+          "remarks": "Corona Hotline  "
+        }
+      ]
+    },
+    {
+      "region": "Uttarakhand",
+      "values": [
+        {
+          "place": "Haldwani",
+          "job": "Government Medical College",
+          "phonenumber": "104",
+          "openinghours": "No information",
+          "remarks": "Corona Hotline  "
+        }
+      ]
+    },
+    {
+      "region": "West Bengal",
+      "values": [
+        {
+          "place": "Kolkata",
+          "job": "National Institute of Cholera and Enteric Diseases",
+          "phonenumber": "1.831E+12",
+          "openinghours": "No information",
+          "remarks": "Corona Hotline  "
+        },
+        {
+          "place": "Kolkata",
+          "job": "IPGMER,",
+          "phonenumber": "3323412600",
+          "openinghours": "No information",
+          "remarks": "Corona Hotline  "
+        }
+      ]
+    },
+    {
+      "region": "Sikkim",
+      "values": [
+        {
+          "place": "No information",
+          "job": "No information",
+          "phonenumber": "104",
+          "openinghours": "No information",
+          "remarks": "Corona Hotline Statewide"
+        }
+      ]
+    },
+    {
+      "region": "Dadra and Nagar Haveli",
+      "values": [
+        {
+          "place": "No information",
+          "job": "No information",
+          "phonenumber": "104",
+          "openinghours": "No information",
+          "remarks": "Corona Hotline "
+        }
+      ]
+    },
+    {
+      "region": "Daman & Diu",
+      "values": [
+        {
+          "place": "No information",
+          "job": "No information",
+          "phonenumber": "104",
+          "openinghours": "No information",
+          "remarks": "Corona Hotline "
+        }
+      ]
+    },
+    {
+      "region": "Mizoram",
+      "values": [
+        {
+          "place": "No information",
+          "job": "No information",
+          "phonenumber": "102",
+          "openinghours": "No information",
+          "remarks": "Corona Hotline "
+        }
+      ]
+    },
+    {
+      "region": "Ladakh",
+      "values": [
+        {
+          "place": "No information",
+          "job": "No information",
+          "phonenumber": "1982256462",
+          "openinghours": "No information",
+          "remarks": "Corona Hotline "
+        }
+      ]
+    }   
+  ]
+}
